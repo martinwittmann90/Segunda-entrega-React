@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+code {
+  font-family:'Courier New', Courier, monospace 
+}
+
+.ItemList-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 10px 10px;
+  align-self: center;
+}
+
+.item-container {
+  background-color: #2594df ;
+  width: 100%;
+  height: 100%;
+  border: black 2px solid;
+  padding-left: 10px;
+}
+.itemdetail-container {
+  display: flex;
+  justify-content: center;
+  background-color: #2594df ;
+  padding-bottom: 10px;
+}
+
+.itemdetail2-container {
+  background-color: #2594df;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.item-container2 {
+  width: 600x;
+  height: 500px;
+}
+
+.details-btn {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+.images {
+  padding-top: 10px;
+  width: 250px;
+  height: 200px;
+}
