@@ -6,12 +6,13 @@ import Navbars from "../src/components/Navbars";
 import Checkout from "./components/Checkout";
 import Contact from "./components/Contact";
 import ItemDetailContainer from "./components/ItemDetailContainer";
-
-function Pepe() {
+import BodyApp from "../src/components/BodyApp";
+function App() {
   return (
     <>
       <BrowserRouter>
         <Navbars />
+        <BodyApp></BodyApp>
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/checkout" element={<Checkout />} />
@@ -25,4 +26,4 @@ function Pepe() {
   );
 }
 
-export default Pepe;
+export default App;
